@@ -59,7 +59,7 @@ const propertySchema = new mongoose.Schema({
 const shortUrlSchema = new mongoose.Schema({
     emailId : {
         type: "string",
-        required : true
+        required : false
     },
     longUrl : {
         type: "string",
